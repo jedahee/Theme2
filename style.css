@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap');
+main{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+span{
+    font-size: 1.2em;
+}
+
+em{
+    font-weight: bold;
+}
+
+.social:hover{
+    animation: 
+        aum
+        0.5s
+        both
+        ease-in-out;
+}
+
+@keyframes aum{
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
